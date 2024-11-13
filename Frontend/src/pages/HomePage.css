@@ -1,0 +1,48 @@
+.homepage-header {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+   height : 100px;
+}
+
+
+
+
+.site-title {
+    font-size: 3em;
+    margin: 0;
+}
+
+.site-subtitle {
+    font-size: 1.8em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0;
+    color: white;
+    padding-top: 10px;
+}
+
+.search-bar {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.location-input, .search-input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.location-input {
+    width: 200px;
+}
+
+.search-input {
+    width: 400px; 
+}

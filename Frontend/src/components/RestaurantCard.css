@@ -1,0 +1,43 @@
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 16px;
+}
+
+.restaurant-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.restaurant-info {
+    padding: 16px;
+}
+
+.view-details {
+    display: inline-block;
+    margin-top: 8px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.rating {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.rating.low {
+    color: red;
+}
+
+.rating.medium {
+    color: orange;
+}
+
+.rating.high {
+    color: green;
+}

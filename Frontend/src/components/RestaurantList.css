@@ -1,0 +1,23 @@
+.restaurant-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-items: center; 
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
