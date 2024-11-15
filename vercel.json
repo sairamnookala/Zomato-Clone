@@ -7,13 +7,12 @@
         "config": {
           "distDir": "build"
         }
-      }
-    ],
-    "routes": [
+      },
       {
-        "src": "/(.*)",
-        "dest": "/build/$1"
+        "src": "Backend/index.js", 
+        "use": "@vercel/node"        
       }
     ]
   }
+  
   
